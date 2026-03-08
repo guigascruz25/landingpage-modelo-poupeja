@@ -39,7 +39,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
       <div className={`flex items-center gap-2 ${className}`}>
         <Share2 className="h-4 w-4 text-muted-foreground" />
         <span className="text-sm text-muted-foreground mr-2">Compartilhar:</span>
-        
+
         {showWhatsApp && (
           <Button
             variant="ghost"
@@ -50,7 +50,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
             <MessageCircle className="h-4 w-4 text-green-500" />
           </Button>
         )}
-        
+
         {showSocialMedia && (
           <>
             <Button
@@ -61,7 +61,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
             >
               <Facebook className="h-4 w-4 text-blue-500" />
             </Button>
-            
+
             <Button
               variant="ghost"
               size="sm"
@@ -70,7 +70,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
             >
               <Twitter className="h-4 w-4 text-sky-500" />
             </Button>
-            
+
             <Button
               variant="ghost"
               size="sm"
@@ -98,7 +98,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
             <MessageCircle className="h-5 w-5" />
           </Button>
         )}
-        
+
         {showSocialMedia && (
           <>
             <Button
@@ -109,7 +109,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
             >
               <Facebook className="h-5 w-5" />
             </Button>
-            
+
             <Button
               variant="default"
               size="sm"
@@ -131,8 +131,8 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
         <Share2 className="h-4 w-4" />
         <span>Compartilhe esta página:</span>
       </div>
-      
-      <div className="flex gap-2">
+
+      <div className="flex flex-wrap gap-2">
         {showWhatsApp && (
           <Button
             variant="outline"
@@ -144,7 +144,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
             WhatsApp
           </Button>
         )}
-        
+
         {showSocialMedia && (
           <>
             <Button
@@ -156,7 +156,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
               <Facebook className="h-4 w-4 text-blue-500" />
               Facebook
             </Button>
-            
+
             <Button
               variant="outline"
               size="sm"
@@ -166,7 +166,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({
               <Twitter className="h-4 w-4 text-sky-500" />
               Twitter
             </Button>
-            
+
             <Button
               variant="outline"
               size="sm"
